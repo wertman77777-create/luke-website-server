@@ -1,0 +1,18 @@
+site_name: Luke's Media Server
+
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: light blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+
+nav:
+  - Home: index.md
+  - Setup Guide: setup.md
+  - Request Media: request.md
+
+extra_css:
+  - stylesheets/landing.css
